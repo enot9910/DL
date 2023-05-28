@@ -9,7 +9,7 @@ https://github.com/enot9910/DL.git
 https://drive.google.com/file/d/1GUVUG7ykk7hKLeQZSSuZWRqrV8u_HeL-/view?usp=drive_link
 
 3. Встраиваем модель в проект:  
-Копируем скаченную модель и вставляем его в папку прокта DL. 
+Копируем скаченную модель и вставляем его в корневую папку проекта DL. 
 
 4. Собираем и запускаем докер:  
 ```
