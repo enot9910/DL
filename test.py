@@ -15,7 +15,7 @@ difference = cv2.subtract(img1, img2)
 #MAE = np.sum(np.abs(np.subtract(img1,img2,dtype=np.float))) / img1.shape[0]
 MAE = np.sum(difference != 0) / img1.shape[0]
 
-if MAE < 0.05:
+if MAE < 0.001:
 	print("Test passed")
 else:
 	print("Test failed")
