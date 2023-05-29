@@ -4,8 +4,8 @@ import cv2
 import numpy as np
 
 testGene = testGenerator("data/membrane/test")
-new_model1 = load_model('model.hdf5')
-results = new_model1.predict_generator(testGene, 5, verbose=1)
+new_model = load_model('model.hdf5')
+results = new_model.predict_generator(testGene, 5, verbose=1)
 saveResult("data/membrane/test", results)
 
 img1 = cv2.imread('data/membrane/test/' + str(1) + '_predict.png')
