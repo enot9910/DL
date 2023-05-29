@@ -14,6 +14,7 @@ https://drive.google.com/file/d/1GUVUG7ykk7hKLeQZSSuZWRqrV8u_HeL-/view?usp=drive
 Копируем скаченную модель и вставляем его в корневую папку проекта DL. 
 
 4. Собираем и запускаем докер: 
+
 создание образа 
 ```
 sudo docker build -t test1 .
