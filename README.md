@@ -17,11 +17,11 @@ https://drive.google.com/file/d/1GUVUG7ykk7hKLeQZSSuZWRqrV8u_HeL-/view?usp=drive
 
 создание образа 
 ```
-sudo docker build -t test1 .
+docker build -t test1 .
 ```
 запуск образа
 ```
-sudo docker run test1
+docker run test1
 ```
 Если на вашем компьютере получены результаты аналогичные тем, что получены на моей машине, то вы увидите сообщение  
 *Test passed*  
