@@ -1,9 +1,9 @@
-Проект взят из [Implementation of deep learning framework](https://github.com/zhixuhao/unet). В нем сверточные сети u-net применяются к сегментации изображений с клетками.  
+Проект взят из [Implementation of deep learning framework](https://github.com/zhixuhao/unet) https://github.com/a-martyn/unet. В нем сверточные сети u-net применяются к сегментации изображений с клетками.  
 
 ### Запуск тестового проекта:
 1. Скачиваем репозиторий и переходим в него:  
 
-https://github.com/enot9910/DL.git
+https://github.com/enot9910/DL.git && cd DL
 
 2. Скчаиваем обученную модель:  
 https://drive.google.com/file/d/1GUVUG7ykk7hKLeQZSSuZWRqrV8u_HeL-/view?usp=drive_link
@@ -13,10 +13,12 @@ https://drive.google.com/file/d/1GUVUG7ykk7hKLeQZSSuZWRqrV8u_HeL-/view?usp=drive
 3. Встраиваем модель в проект:  
 Копируем скаченную модель и вставляем его в корневую папку проекта DL. 
 
-4. Собираем и запускаем докер:  
+4. Собираем и запускаем докер: 
+создание образа 
 ```
 sudo docker build -t test1 .
 ```
+запуск образа
 ```
 sudo docker run test1
 ```
